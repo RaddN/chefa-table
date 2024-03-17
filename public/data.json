@@ -1,0 +1,180 @@
+[
+        {
+            "recipe_id": 1,
+            "recipe_name": "Chicken Stir-Fry",
+            "short_description": "A delicious and healthy chicken stir-fry recipe.",
+            "ingredients": [
+                "550 g chicken",
+                "120 ml soy sauce",
+                "200 g basil leaf",
+                "400 g mushroom"
+            ],
+            "preparing_time": 30,
+            "calories": 320,
+            "recipe_image": "../src/assets/spaghetti.png"
+        },
+        {
+            "recipe_id": 2,
+            "recipe_name": "Spaghetti Bolognese",
+            "short_description": "Classic Italian pasta dish with a rich meat sauce.",
+            "ingredients": [
+                "400 g spaghetti",
+                "300 g ground beef",
+                "1 onion, diced",
+                "2 cloves garlic, minced",
+                "400 g canned tomatoes",
+                "2 tbsp tomato paste",
+                "1 tsp dried oregano",
+                "1 tsp dried basil",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 45,
+            "calories": 480,
+            "recipe_image": "../src/assets/Chicken.png"
+        },
+        {
+            "recipe_id": 3,
+            "recipe_name": "Vegetable Curry",
+            "short_description": "A flavorful and hearty vegetable curry.",
+            "ingredients": [
+                "2 cups mixed vegetables",
+                "1 onion, chopped",
+                "2 cloves garlic, minced",
+                "1 tbsp curry powder",
+                "400 ml coconut milk",
+                "1 tbsp vegetable oil",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 40,
+            "calories": 280,
+            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        },
+        {
+            "recipe_id": 4,
+            "recipe_name": "Grilled Salmon",
+            "short_description": "Tender and juicy grilled salmon fillets.",
+            "ingredients": [
+                "4 salmon fillets",
+                "2 tbsp lemon juice",
+                "2 tbsp olive oil",
+                "2 cloves garlic, minced",
+                "1 tsp dried dill",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 20,
+            "calories": 350,
+            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        },
+        {
+            "recipe_id": 5,
+            "recipe_name": "Caprese Salad",
+            "short_description": "A simple and refreshing salad with tomatoes, mozzarella, and basil.",
+            "ingredients": [
+                "4 ripe tomatoes",
+                "200 g fresh mozzarella",
+                "1 bunch fresh basil",
+                "2 tbsp balsamic glaze",
+                "2 tbsp extra virgin olive oil",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 15,
+            "calories": 180,
+            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        },
+        {
+            "recipe_id": 6,
+            "recipe_name": "Beef Tacos",
+            "short_description": "Tasty beef tacos with all the fixings.",
+            "ingredients": [
+                "500 g ground beef",
+                "1 onion, diced",
+                "2 cloves garlic, minced",
+                "1 tbsp chili powder",
+                "1 tsp ground cumin",
+                "8 small flour tortillas",
+                "1 cup shredded lettuce",
+                "1 cup diced tomatoes",
+                "1/2 cup shredded cheddar cheese",
+                "Sour cream and salsa for serving"
+            ],
+            "preparing_time": 35,
+            "calories": 400,
+            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        },
+        {
+            "recipe_id": 7,
+            "recipe_name": "Pasta Primavera",
+            "short_description": "A light and colorful pasta dish with fresh vegetables.",
+            "ingredients": [
+                "300 g spaghetti",
+                "2 cups mixed vegetables",
+                "2 cloves garlic, minced",
+                "2 tbsp olive oil",
+                "1/4 cup grated Parmesan cheese",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 25,
+            "calories": 320,
+            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+        },
+        {
+            "recipe_id": 8,
+            "recipe_name": "Berry Smoothie",
+            "short_description": "A refreshing and nutritious smoothie with mixed berries.",
+            "ingredients": [
+                "1 cup mixed berries (strawberries, blueberries, raspberries)",
+                "1 banana",
+                "1 cup milk (dairy or plant-based)"
+            ],
+            "preparing_time": 10,
+            "calories": 150,
+            "recipe_image": "path/to/recipe_image8.jpg"
+        },
+        {
+            "recipe_id": 8,
+            "recipe_name": "Berry Smoothie",
+            "short_description": "A refreshing and nutritious smoothie with mixed berries.",
+            "ingredients": [
+                "1 cup mixed berries (strawberries, blueberries, raspberries)",
+                "1 banana",
+                "1 cup milk (dairy or plant-based)",
+                "1 tbsp honey or sweetener of your choice"
+            ],
+            "preparing_time": 10,
+            "calories": 150,
+            "recipe_image": "path/to/recipe_image8.jpg"
+        },
+        {
+            "recipe_id": 9,
+            "recipe_name": "Roasted Vegetables",
+            "short_description": "Oven-roasted assorted vegetables with a touch of herbs.",
+            "ingredients": [
+                "2 cups mixed vegetables (carrots, bell peppers, zucchini, etc.)",
+                "2 tbsp olive oil",
+                "1 tsp dried thyme",
+                "1 tsp dried rosemary",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 30,
+            "calories": 200,
+            "recipe_image": "path/to/recipe_image9.jpg"
+        },
+        {
+            "recipe_id": 10,
+            "recipe_name": "Quinoa Salad",
+            "short_description": "A healthy and satisfying salad with quinoa, vegetables, and a tangy dressing.",
+            "ingredients": [
+                "1 cup cooked quinoa",
+                "1 cup diced cucumber",
+                "1 cup cherry tomatoes, halved",
+                "1/2 cup diced red onion",
+                "1/4 cup chopped fresh parsley",
+                "2 tbsp lemon juice",
+                "2 tbsp olive oil",
+                "Salt and pepper to taste"
+            ],
+            "preparing_time": 15,
+            "calories": 250,
+            "recipe_image": "path/to/recipe_image10.jpg"
+        }
+    ]
