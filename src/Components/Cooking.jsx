@@ -8,8 +8,8 @@ const Cooking = ({ cooking }) => {
         Currently cooking: {cooking.length ?? 0}
       </h2>
       <hr />
-      <div className="">
-        <table className="table">
+      <div className="overflow-x-auto">
+        <table className="table table-sm">
           <thead>
             <tr>
               <th></th>

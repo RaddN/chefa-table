@@ -11,7 +11,7 @@
             ],
             "preparing_time": 30,
             "calories": 320,
-            "recipe_image": "../src/assets/spaghetti.png"
+            "recipe_image": "https://i.ibb.co/NKrVN1N/Chicken.png"
         },
         {
             "recipe_id": 2,
@@ -30,7 +30,7 @@
             ],
             "preparing_time": 45,
             "calories": 480,
-            "recipe_image": "../src/assets/Chicken.png"
+            "recipe_image": "https://i.ibb.co/SVz0Wby/spaghetti.png"
         },
         {
             "recipe_id": 3,
@@ -47,7 +47,7 @@
             ],
             "preparing_time": 40,
             "calories": 280,
-            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            "recipe_image": "https://i.ibb.co/SVvgm6R/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg"
         },
         {
             "recipe_id": 4,
@@ -63,7 +63,7 @@
             ],
             "preparing_time": 20,
             "calories": 350,
-            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            "recipe_image": "https://i.ibb.co/C2r54HM/top-view-table-full-delicious-food-composition.jpg"
         },
         {
             "recipe_id": 5,
@@ -79,7 +79,7 @@
             ],
             "preparing_time": 15,
             "calories": 180,
-            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            "recipe_image": "https://i.ibb.co/r5svf0K/mexican-tacos-with-beef-tomato-sauce-salsa.jpg"
         },
         {
             "recipe_id": 6,
@@ -99,7 +99,7 @@
             ],
             "preparing_time": 35,
             "calories": 400,
-            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            "recipe_image": "https://i.ibb.co/85qyWg1/fresh-vegetable-salad-with-grilled-chicken-breast.jpg"
         },
         {
             "recipe_id": 7,
@@ -115,7 +115,7 @@
             ],
             "preparing_time": 25,
             "calories": 320,
-            "recipe_image": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            "recipe_image": "https://i.ibb.co/KDtsycS/deep-fried-fhicken-roll-dark-surface.jpg"
         },
         {
             "recipe_id": 8,
@@ -128,7 +128,7 @@
             ],
             "preparing_time": 10,
             "calories": 150,
-            "recipe_image": "path/to/recipe_image8.jpg"
+            "recipe_image": "https://i.ibb.co/sPmGjMR/deep-fried-wonton-dark-surface.jpg"
         },
         {
             "recipe_id": 8,
@@ -142,7 +142,7 @@
             ],
             "preparing_time": 10,
             "calories": 150,
-            "recipe_image": "path/to/recipe_image8.jpg"
+            "recipe_image": "https://i.ibb.co/hmrKm00/veal-fillet-stir-fry-with-oranges-paprika-sweet-sour-sauce-light-table.jpg"
         },
         {
             "recipe_id": 9,
@@ -157,7 +157,7 @@
             ],
             "preparing_time": 30,
             "calories": 200,
-            "recipe_image": "path/to/recipe_image9.jpg"
+            "recipe_image": "https://i.ibb.co/HK9xVfm/grilled-meat-vegetables-make-gourmet-lunch-generative-ai.jpg"
         },
         {
             "recipe_id": 10,
@@ -175,6 +175,6 @@
             ],
             "preparing_time": 15,
             "calories": 250,
-            "recipe_image": "path/to/recipe_image10.jpg"
+            "recipe_image": "https://i.ibb.co/nDbztD5/fresh-grill-bbq-chicken.jpg"
         }
     ]

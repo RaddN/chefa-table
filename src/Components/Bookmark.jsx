@@ -7,8 +7,8 @@ const Bookmark = ({cartRec,cooking,handlePreparing}) => {
         <div>
           <h2 className="text-2xl font-semibold text-center">Want to cook: {cartRec.length??0}</h2>
           <hr />
-          <div className="">
-            <table className="table">
+          <div className="overflow-x-auto">
+            <table className="table table-sm">
             <thead>
               <tr>
               <th></th>

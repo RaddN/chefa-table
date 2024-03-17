@@ -16,8 +16,10 @@ function App() {
  const handleCook = recipe=>{
   setCartRec([...cartRec,recipe]);
  }
- const handlePreparing = cartRec=>{
-  setcooking([...cooking,cartRec]);
+ const handlePreparing = addItem=>{
+  setcooking([...cooking,addItem]);
+  const remainCartItem = cartRec.filter(cartItem=>cartItem.recipe_id!==addItem.recipe_id);
+  setCartRec(remainCartItem);
  }
   return (
     <div className="container mx-auto">
