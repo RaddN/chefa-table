@@ -24,7 +24,7 @@ const Bookmark = ({cartRec,cooking,handlePreparing}) => {
               <td>{cartItem.recipe_name}</td>
               <td>{cartItem.preparing_time} minutes</td>
               <td>{cartItem.calories} calories</td>
-              <td><button onClick={()=>handlePreparing(cartItem)} className="btn bg-[#0BE58A]">Preparing</button></td>
+              <td><button onClick={()=>handlePreparing(cartItem)} className="btn bg-[#0BE58A] rounded-full px-4">Preparing</button></td>
             </tr>):<tr></tr>}
             
             </tbody>

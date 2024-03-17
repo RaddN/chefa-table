@@ -18,10 +18,10 @@ const Banner = () => {
               exceptionally well world-class Programmer.
             </p>
             <div className="flex justify-center gap-10">
-              <button className="btn btn-primary bg-[#0BE58A] text-[#150B2B] border-none hover:bg-[#0BE58A]">
+              <button className="btn rounded-full font-bold btn-primary bg-[#0BE58A] text-[#150B2B] border-none hover:bg-[#0BE58A]">
                 Explore Now
               </button>
-              <button className="btn  btn-outline text-white border-white hover:bg-[#0BE58A] hover:text-[#150B2B] hover:border-none">
+              <button className="btn rounded-full  btn-outline text-white border-white hover:bg-[#0BE58A] hover:text-[#150B2B] hover:border-none">
                 Our Feedback
               </button>
             </div>

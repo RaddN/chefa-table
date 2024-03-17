@@ -21,12 +21,7 @@
                 "400 g spaghetti",
                 "300 g ground beef",
                 "1 onion, diced",
-                "2 cloves garlic, minced",
-                "400 g canned tomatoes",
-                "2 tbsp tomato paste",
-                "1 tsp dried oregano",
-                "1 tsp dried basil",
-                "Salt and pepper to taste"
+                "2 cloves garlic, minced"
             ],
             "preparing_time": 45,
             "calories": 480,
@@ -158,23 +153,5 @@
             "preparing_time": 30,
             "calories": 200,
             "recipe_image": "https://i.ibb.co/HK9xVfm/grilled-meat-vegetables-make-gourmet-lunch-generative-ai.jpg"
-        },
-        {
-            "recipe_id": 10,
-            "recipe_name": "Quinoa Salad",
-            "short_description": "A healthy and satisfying salad with quinoa, vegetables, and a tangy dressing.",
-            "ingredients": [
-                "1 cup cooked quinoa",
-                "1 cup diced cucumber",
-                "1 cup cherry tomatoes, halved",
-                "1/2 cup diced red onion",
-                "1/4 cup chopped fresh parsley",
-                "2 tbsp lemon juice",
-                "2 tbsp olive oil",
-                "Salt and pepper to taste"
-            ],
-            "preparing_time": 15,
-            "calories": 250,
-            "recipe_image": "https://i.ibb.co/nDbztD5/fresh-grill-bbq-chicken.jpg"
         }
     ]

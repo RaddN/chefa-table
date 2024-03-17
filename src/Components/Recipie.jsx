@@ -14,7 +14,7 @@ const Recipie = ({recipe,handleCook}) => {
             </figure>
             <div className="card-body pt-4">
               <h2 className="card-title font-bold">{recipe_name}</h2>
-              <p>{short_description}</p>
+              <p className='my-2'>{short_description}</p>
               <hr />
               <p className="text-lg font-medium">Ingredients: {ingredients?.length}</p>
               <ul className="list-disc text-[#878787] text-lg ml-5">
@@ -28,7 +28,7 @@ const Recipie = ({recipe,handleCook}) => {
               <p>{calories} calories</p>
               </div>
               <div className="card-actions mt-4">
-                <button onClick={()=>handleCook(recipe)} className="btn btn-primary bg-[#0BE58A] text-[#150B2B] border-none hover:text-white">Want to Cook</button>
+                <button onClick={()=>handleCook(recipe)} className="btn btn-primary bg-[#0BE58A] text-[#150B2B] border-none rounded-full px-6  hover:text-white">Want to Cook</button>
               </div>
             </div>
           </div>
