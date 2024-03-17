@@ -4,7 +4,7 @@ import Cooking from "./Cooking";
 const Bookmark = ({cartRec,cooking,handlePreparing}) => {
     
     return (
-        <div>
+        <div className="border rounded-xl p-5">
           <h2 className="text-2xl font-semibold text-center">Want to cook: {cartRec.length??0}</h2>
           <hr />
           <div className="overflow-x-auto">

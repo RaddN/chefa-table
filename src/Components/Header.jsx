@@ -36,7 +36,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Recipe Calories</a>
+          <a className="btn btn-ghost text-2xl font-extrabold">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -63,7 +63,7 @@ const Header = () => {
                 className="input input-bordered w-24 md:w-auto"
               />
             </div>
-            <div role="button" className="btn btn-ghost btn-circle avatar">
+            <div role="button" className="btn btn-ghost btn-circle avatar bg-[#0BE58A]">
               <div className="rounded-full">
                 <img src={avatar} />
               </div>

@@ -28,18 +28,18 @@ function App() {
       <h2 className="text-5xl font-semibold text-center mt-32 mb-4">
         Our Recipes
       </h2>
-      <p className="text-center text-base">
-        Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
-        vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur
-        elementum mauris aenean neque.{" "}
+      <p className="text-center text-base max-w-4xl mx-auto my-5">
+      Discover an array of tantalizing recipes that will excite your taste buds and nourish your body. From mouthwatering mains to delectable desserts, our culinary creations will leave you craving for more.
       </p>
       <div className="flex">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-2 gap-10 w-2/3">
           {
             recipes.map(recipe =><Recipie key={recipe.recipe_id} recipe={recipe} handleCook={handleCook}></Recipie>)
           }
         </div>
-        <Bookmark cartRec={cartRec} cooking={cooking} handlePreparing={handlePreparing} className="border rounded w-1/3"></Bookmark>
+        <div className="w-1/3">
+        <Bookmark cartRec={cartRec} cooking={cooking} handlePreparing={handlePreparing} ></Bookmark>
+        </div>
       </div>
     </div>
   );

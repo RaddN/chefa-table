@@ -1,18 +1,19 @@
 import clock from '../assets/clock.svg'
 import calorie from '../assets/calorie.svg'
+
 const Recipie = ({recipe,handleCook}) => {
     const {recipe_name,short_description,recipe_image,ingredients,preparing_time,calories}=recipe;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card bg-base-100 border p-5">
             <figure>
-              <img
+              <img className='rounded-3xl'
                 src={recipe_image}
                 alt=""
               />
             </figure>
-            <div className="card-body">
-              <h2 className="card-title">{recipe_name}</h2>
+            <div className="card-body pt-4">
+              <h2 className="card-title font-bold">{recipe_name}</h2>
               <p>{short_description}</p>
               <hr />
               <p className="text-lg font-medium">Ingredients: {ingredients?.length}</p>
@@ -26,8 +27,8 @@ const Recipie = ({recipe,handleCook}) => {
               <img src={calorie} alt="" width="24px" />
               <p>{calories} calories</p>
               </div>
-              <div className="card-actions">
-                <button onClick={()=>handleCook(recipe)} className="btn btn-primary bg-[#0BE58A] text-[#150B2B] border-none">Want to Cook</button>
+              <div className="card-actions mt-4">
+                <button onClick={()=>handleCook(recipe)} className="btn btn-primary bg-[#0BE58A] text-[#150B2B] border-none hover:text-white">Want to Cook</button>
               </div>
             </div>
           </div>
