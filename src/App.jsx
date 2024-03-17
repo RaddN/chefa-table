@@ -31,7 +31,7 @@ function App() {
       <p className="text-center text-base max-w-4xl mx-auto my-5">
       Discover an array of tantalizing recipes that will excite your taste buds and nourish your body. From mouthwatering mains to delectable desserts, our culinary creations will leave you craving for more.
       </p>
-      <div className="flex">
+      <div className="flex gap-10">
         <div className="grid grid-cols-2 gap-10 w-2/3">
           {
             recipes.map(recipe =><Recipie key={recipe.recipe_id} recipe={recipe} handleCook={handleCook}></Recipie>)
